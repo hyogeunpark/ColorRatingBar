@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ColorRatingBar">
+        <attr name="progress_color" format="color"/>
+        <attr name="half_color" format="color"/>
+        <attr name="empty_color" format="color"/>
+    </declare-styleable>
+</resources>

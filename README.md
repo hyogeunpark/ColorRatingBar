@@ -12,7 +12,7 @@ Change Star Color of Rating Bar(min SDK: 14)
 
 Add your buildscript
 #### 1. maven
-```
+```xml
 <dependency>
   <groupId>hyogeun.github.com.colorratingbar</groupId>
   <artifactId>ColorRatingBar</artifactId>
@@ -21,7 +21,7 @@ Add your buildscript
 </dependency>
 ```
 #### 2. gradle
-```
+```java
 compile 'hyogeun.github.com.colorratingbar:ColorRatingBar:1.0.0'
 ```
 

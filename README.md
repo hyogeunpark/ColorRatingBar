@@ -26,7 +26,7 @@ compile 'hyogeun.github.com.colorratingbar:ColorRatingBar:1.0.0'
 ```
 
 
-### Eexample
+### Example
 #### 1. xml
 ```xml
 <hyogeun.github.com.colorratingbarlib.ColorRatingBar

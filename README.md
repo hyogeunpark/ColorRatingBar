@@ -1,14 +1,33 @@
 # ColorRatingBar
 
 ## Introduction
-Change Star Color of Rating Bar
+Change Star Color of Rating Bar(min SDK: 14)
+
 
 #### * An example project / library of ColorRatingBar
 
 ![](assets/ColorRatingBar.gif)
 
 ## Usages
-#### xml
+
+Add your buildscript
+#### 1. maven
+```
+<dependency>
+  <groupId>hyogeun.github.com.colorratingbar</groupId>
+  <artifactId>ColorRatingBar</artifactId>
+  <version>1.0.0</version>
+  <type>pom</type>
+</dependency>
+```
+#### 2. gradle
+```
+compile 'hyogeun.github.com.colorratingbar:ColorRatingBar:1.0.0'
+```
+
+
+### Eexample
+#### 1. xml
 ```xml
 <hyogeun.github.com.colorratingbarlib.ColorRatingBar
         android:id="@+id/rating_1"
@@ -19,15 +38,15 @@ Change Star Color of Rating Bar
         app:progress_color="#00f0f0" />
 ```
 
-#### Code
-  ##### 1. Activity
+#### 2. Code
+  ##### 1) Activity
   ```java
   ColorRatingBar colorRatingBar = new ColorRatingBar(this);
   colorRatingBar.setRatingProgressColor(R.color.colorPrimary);
   colorRatingBar.setRatingEmptyColor(R.color.colorAccent);
   colorRatingBar.setRating(3.0f);
   ```
-  ##### 2. Fragment
+  ##### 2) Fragment
   ```java
   ColorRatingBar colorRatingBar = new ColorRatingBar(getContext());
   colorRatingBar.setRatingProgressColor(R.color.colorPrimary);

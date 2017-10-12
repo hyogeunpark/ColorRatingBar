@@ -21,7 +21,7 @@ Add your buildscript
 </dependency>
 ```
 #### • gradle
-```java
+```groovy
 compile 'hyogeun.github.com.colorratingbar:ColorRatingBar:1.0.0'
 ```
 

@@ -54,7 +54,7 @@ compile 'hyogeun.github.com.colorratingbar:ColorRatingBar:1.0.0'
   colorRatingBar.setRating(3.0f);
   ```
 
-### LICENSE
+## LICENSE
 ```
 Copyright (c) 2017 hyogeun.park
 

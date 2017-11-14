@@ -1,5 +1,7 @@
 # ColorRatingBar
 
+[ ![Download](https://api.bintray.com/packages/hyogeunpark/maven/ColorRatingBar/images/download.svg?version=1.0.0) ](https://bintray.com/hyogeunpark/maven/ColorRatingBar/1.0.0/link)
+
 ## Introduction
 Change Star Color of Rating Bar(min SDK: 14)
 

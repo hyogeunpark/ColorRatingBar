@@ -4,5 +4,6 @@
         <attr name="progress_color" format="color"/>
         <attr name="half_color" format="color"/>
         <attr name="empty_color" format="color"/>
+        <attr name="changeable" format="boolean"/>
     </declare-styleable>
 </resources>

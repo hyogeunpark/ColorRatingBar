@@ -37,6 +37,7 @@ public class ColorRatingBar extends AppCompatRatingBar {
         int progressColor = a.getColor(R.styleable.ColorRatingBar_progress_color, ContextCompat.getColor(context, R.color.colorPrimary));
 //        int halfColor = a.getColor(R.styleable.ColorRatingBar_half_color, ContextCompat.getColor(context, R.color.colorAccent));
         int emptyColor = a.getColor(R.styleable.ColorRatingBar_empty_color, ContextCompat.getColor(context, R.color.colorAccent));
+        boolean changeable = a.getBoolean(R.styleable.ColorRatingBar_changeable, true);
 
         LayerDrawable stars = (LayerDrawable) getProgressDrawable();
         // Filled stars
@@ -46,6 +47,7 @@ public class ColorRatingBar extends AppCompatRatingBar {
         // Empty stars
         setRatingStarColor(DrawableCompat.wrap(stars.getDrawable(0)), emptyColor);
 
+        setIsIndicator(!changeable);
     }
 
     private void setRatingStarColor(Drawable drawable, @ColorInt int color) {

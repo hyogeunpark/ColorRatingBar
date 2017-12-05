@@ -38,6 +38,7 @@ compile 'hyogeun.github.com.colorratingbar:ColorRatingBar:1.0.1'
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:rating="3"
+        app:changeable="false"
         app:empty_color="#f0f000"
         app:progress_color="#00f0f0" />
 ```

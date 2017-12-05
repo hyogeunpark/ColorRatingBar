@@ -58,10 +58,10 @@ compile 'hyogeun.github.com.colorratingbar:ColorRatingBar:1.0.1'
   colorRatingBar.setRating(3.0f);
   ```
 ## Version
-### v1.0.1
-   • add chanageable flag
-### v1.0.0
-   • create change color rating bar
+### • 1.0.1
+   add chanageable flag
+### • 1.0.0
+   create change color rating bar
 
 ## LICENSE
 ```

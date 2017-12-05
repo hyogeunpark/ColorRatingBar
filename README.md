@@ -1,9 +1,11 @@
 # ColorRatingBar
 
-[ ![Download](https://api.bintray.com/packages/hyogeunpark/maven/ColorRatingBar/images/download.svg?version=1.0.0) ](https://bintray.com/hyogeunpark/maven/ColorRatingBar/1.0.0/link)
+[ ![Download](https://api.bintray.com/packages/hyogeunpark/maven/ColorRatingBar/images/download.svg) ](https://bintray.com/hyogeunpark/maven/ColorRatingBar/_latestVersion)
+[![](https://img.shields.io/badge/minSdk-14-blue.svg)](https://developer.android.com/about/versions/android-4.0.html)
+![](https://img.shields.io/badge/language-java-orange.svg)
 
 ## Introduction
-Change Star Color of Rating Bar(min SDK: 14)
+Change Star Color of Rating Bar
 
 
 #### * An example project / library of ColorRatingBar
@@ -18,13 +20,13 @@ Add your buildscript
 <dependency>
   <groupId>hyogeun.github.com.colorratingbar</groupId>
   <artifactId>ColorRatingBar</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <type>pom</type>
 </dependency>
 ```
 #### • gradle
 ```groovy
-compile 'hyogeun.github.com.colorratingbar:ColorRatingBar:1.0.0'
+compile 'hyogeun.github.com.colorratingbar:ColorRatingBar:1.0.1'
 ```
 
 
@@ -36,6 +38,7 @@ compile 'hyogeun.github.com.colorratingbar:ColorRatingBar:1.0.0'
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:rating="3"
+        app:changeable="false"
         app:empty_color="#f0f000"
         app:progress_color="#00f0f0" />
 ```
@@ -55,6 +58,11 @@ compile 'hyogeun.github.com.colorratingbar:ColorRatingBar:1.0.0'
   colorRatingBar.setRatingEmptyColor(R.color.colorAccent);
   colorRatingBar.setRating(3.0f);
   ```
+## Version
+### • 1.0.1
+   add chanageable flag
+### • 1.0.0
+   create change color rating bar
 
 ## LICENSE
 ```

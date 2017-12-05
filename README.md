@@ -1,7 +1,7 @@
 # ColorRatingBar
 
 [ ![Download](https://api.bintray.com/packages/hyogeunpark/maven/ColorRatingBar/images/download.svg) ](https://bintray.com/hyogeunpark/maven/ColorRatingBar/_latestVersion)
-![](https://img.shields.io/badge/minSdk-14-blue.svg)](https://developer.android.com/about/versions/android-4.0.html)
+[![](https://img.shields.io/badge/minSdk-14-blue.svg)](https://developer.android.com/about/versions/android-4.0.html)
 ![](https://img.shields.io/badge/language-java-orange.svg)
 
 ## Introduction

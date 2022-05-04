@@ -1,6 +1,6 @@
 package hyogeun.github.com.colorratingbar;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import hyogeun.github.com.colorratingbarlib.ColorRatingBar;
